@@ -1,4 +1,3 @@
-//your JS code here. If required.
 document.addEventListener("DOMContentLoaded", function () {
   const inputs = document.querySelectorAll(".code");
 
@@ -10,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
           inputs[index + 1].focus();
         }
       } else {
-        e.target.value = ""; 
+        e.target.value = "";
       }
     });
 
@@ -25,5 +24,5 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
-  inputs[0].focus(); 
+  inputs[0].focus();
 });
